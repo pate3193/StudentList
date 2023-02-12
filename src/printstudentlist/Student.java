@@ -13,6 +13,7 @@ public class Student
  private String name;
  private int age ;
  private int sid;
+ private String address;
 
     /**
      * @return the name
@@ -56,4 +57,7 @@ public class Student
         this.sid = sid;
     }
     
+    public String getAddress(){
+        return address;
+    }
 }
